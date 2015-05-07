@@ -26,13 +26,14 @@ public class ArrangeArray {
 	public static int myCompare(String x, String y) {
 		String xy = x + y;
 		String yx = y + x;
+		
 		return xy.compareTo(yx);
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		int[] a = {54, 546, 548, 60};
-		int[] a = {1, 34, 3, 98, 9, 76, 45, 4};
+		int[] a = {54, 546, 548, 60};
+//		int[] a = {1, 34, 3, 98, 9, 76, 45, 4};
 		System.out.println(arrangeArray(a));
 	}
 
